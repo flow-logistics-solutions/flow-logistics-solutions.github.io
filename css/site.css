@@ -1,7 +1,42 @@
 body {
   padding-top: 50px;
+  font-family: Verdana;
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+
+.float-left {
+    float: left;
+}
+
+.float-clear {
+    clear: both;
+}
+
+.page-header {
+    margin: 0;
+    padding: 64px 0 16px 0;
+    background-color: #1E5B7F;
+    border-bottom: none;
+    color: #fcfcfc;
+}
+.page-header .title {
+    padding-top: 169px;
+    padding-left: 24px;
+    font-size: 32px;
+}
+
+.section {
+    margin: 0;
+    padding: 64px 0;
+    border-bottom: none;
+}
+    .section h1 {
+        color: #72ACCF;
+    }
+.section-light {
+    color: #333;
+    background-color: #fcfcfc;
+}
+.section-dark {
+    color: #fcfcfc;
+    background-color: #666;
 }
